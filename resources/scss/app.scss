@@ -1,1 +1,14 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+div.jumbo-container {
+    height: 400px;
+    background-color: rebeccapurple;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
