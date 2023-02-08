@@ -11,7 +11,7 @@
         @foreach ($comics as $comic)
         <div class="col-2">
             <div class="comic">
-                <img src="{{comic[thumb]}}" alt="comic image">
+                <img src=" {{comic[thumb]}} " alt="comic image">
                 <h3>{{comic[series]}}</h3>
                 <h4>{{comic[price]}}</h4>
             </div>
